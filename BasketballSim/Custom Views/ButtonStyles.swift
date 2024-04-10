@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct ActionButton: ButtonStyle {
-
     var color: Color = .blue
-
+    
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()
