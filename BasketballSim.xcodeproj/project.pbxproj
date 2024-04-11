@@ -10,6 +10,8 @@
 		D32A5A672BC81E67001B077E /* LiveActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A5A662BC81E67001B077E /* LiveActivityView.swift */; };
 		D32A5A682BC81F7E001B077E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED67D6252917E3520097D139 /* Assets.xcassets */; };
 		D32A5A692BC8202C001B077E /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67D6352917E3E40097D139 /* Image+Ext.swift */; };
+		D32A5A6B2BC82544001B077E /* GameAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A5A6A2BC82544001B077E /* GameAttributes.swift */; };
+		D32A5A6C2BC82544001B077E /* GameAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A5A6A2BC82544001B077E /* GameAttributes.swift */; };
 		D3F801812BC6E4CF00DF07CB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F801802BC6E4CF00DF07CB /* WidgetKit.framework */; };
 		D3F801832BC6E4CF00DF07CB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F801822BC6E4CF00DF07CB /* SwiftUI.framework */; };
 		D3F801862BC6E4CF00DF07CB /* GameWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F801852BC6E4CF00DF07CB /* GameWidgetBundle.swift */; };
@@ -56,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		D32A5A662BC81E67001B077E /* LiveActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityView.swift; sourceTree = "<group>"; };
+		D32A5A6A2BC82544001B077E /* GameAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAttributes.swift; sourceTree = "<group>"; };
 		D3F8017E2BC6E4CF00DF07CB /* GameWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GameWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F801802BC6E4CF00DF07CB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		D3F801822BC6E4CF00DF07CB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -175,6 +178,7 @@
 				ED67D63B2917E4210097D139 /* GameSimulator.swift */,
 				ED67D6392917E4110097D139 /* GameState.swift */,
 				ED67D6372917E3FF0097D139 /* Team.swift */,
+				D32A5A6A2BC82544001B077E /* GameAttributes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -283,6 +287,7 @@
 			files = (
 				D3F8018A2BC6E4CF00DF07CB /* GameWidget.swift in Sources */,
 				D3F801952BC6E83A00DF07CB /* GameState.swift in Sources */,
+				D32A5A6C2BC82544001B077E /* GameAttributes.swift in Sources */,
 				D32A5A672BC81E67001B077E /* LiveActivityView.swift in Sources */,
 				D3F801882BC6E4CF00DF07CB /* GameLiveActivity.swift in Sources */,
 				D3F801862BC6E4CF00DF07CB /* GameWidgetBundle.swift in Sources */,
@@ -294,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32A5A6B2BC82544001B077E /* GameAttributes.swift in Sources */,
 				ED67D6302917E37C0097D139 /* GameView.swift in Sources */,
 				ED67D6362917E3E40097D139 /* Image+Ext.swift in Sources */,
 				ED67D6322917E39D0097D139 /* ButtonStyles.swift in Sources */,
@@ -510,6 +516,7 @@
 				DEVELOPMENT_TEAM = H69U55MWXW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -543,6 +550,7 @@
 				DEVELOPMENT_TEAM = H69U55MWXW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

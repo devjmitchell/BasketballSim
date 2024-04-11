@@ -9,6 +9,8 @@ import SwiftUI
 import WidgetKit
 
 struct LiveActivityView: View {
+    let context: ActivityViewContext<GameAttributes>
+    
     var body: some View {
         ZStack {
             Image(.activityBackground)
@@ -21,45 +23,33 @@ struct LiveActivityView: View {
             
             VStack(spacing: 12) {
                 HStack {
-                    Image(.warriors)
+                    Image(context.attributes.homeTeam)
                         .teamLogoModifier(frame: 60)
                     
-                    Text("125")
+                    Text("\(context.state.gameState.homeScore)")
                         .font(.system(size: 40, weight: .bold))
                         .foregroundStyle(.white.opacity(0.9))
                     
                     Spacer()
                     
-                    Text("125")
+                    Text("\(context.state.gameState.awayScore)")
                         .font(.system(size: 40, weight: .bold))
                         .foregroundStyle(.black.opacity(0.7))
                     
-                    Image(.bulls)
+                    Image(context.attributes.awayTeam)
                         .teamLogoModifier(frame: 60)
                 }
                 
                 HStack {
-                    Image(.warriors)
+                    Image(context.state.gameState.scoringTeamName)
                         .teamLogoModifier(frame: 20)
                     
-                    Text("S. Curry drains a 3")
+                    Text(context.state.gameState.lastAction)
                         .font(.callout)
                         .fontWeight(.semibold)
                         .foregroundStyle(.white.opacity(0.9))
                 }
             }
         }
-    }
-}
-
-//#Preview("Foo", as: .systemMedium) {
-//    LiveActivityView()
-//}
-
-struct LiveActivityView_Previews: PreviewProvider {
-    static var previews: some View {
-        LiveActivityView()
-            .previewContext(WidgetPreviewContext(family: .systemMedium))
-            .containerBackground(for: .widget) { }
     }
 }
