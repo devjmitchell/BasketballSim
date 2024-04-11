@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32A5A672BC81E67001B077E /* LiveActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A5A662BC81E67001B077E /* LiveActivityView.swift */; };
+		D32A5A682BC81F7E001B077E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED67D6252917E3520097D139 /* Assets.xcassets */; };
+		D32A5A692BC8202C001B077E /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67D6352917E3E40097D139 /* Image+Ext.swift */; };
 		D3F801812BC6E4CF00DF07CB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F801802BC6E4CF00DF07CB /* WidgetKit.framework */; };
 		D3F801832BC6E4CF00DF07CB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F801822BC6E4CF00DF07CB /* SwiftUI.framework */; };
 		D3F801862BC6E4CF00DF07CB /* GameWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F801852BC6E4CF00DF07CB /* GameWidgetBundle.swift */; };
@@ -52,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D32A5A662BC81E67001B077E /* LiveActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityView.swift; sourceTree = "<group>"; };
 		D3F8017E2BC6E4CF00DF07CB /* GameWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GameWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F801802BC6E4CF00DF07CB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		D3F801822BC6E4CF00DF07CB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -107,6 +111,7 @@
 			children = (
 				D3F801852BC6E4CF00DF07CB /* GameWidgetBundle.swift */,
 				D3F801872BC6E4CF00DF07CB /* GameLiveActivity.swift */,
+				D32A5A662BC81E67001B077E /* LiveActivityView.swift */,
 				D3F801892BC6E4CF00DF07CB /* GameWidget.swift */,
 				D3F8018B2BC6E4D000DF07CB /* Assets.xcassets */,
 				D3F8018D2BC6E4D000DF07CB /* Info.plist */,
@@ -255,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32A5A682BC81F7E001B077E /* Assets.xcassets in Resources */,
 				D3F8018C2BC6E4D000DF07CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,8 +283,10 @@
 			files = (
 				D3F8018A2BC6E4CF00DF07CB /* GameWidget.swift in Sources */,
 				D3F801952BC6E83A00DF07CB /* GameState.swift in Sources */,
+				D32A5A672BC81E67001B077E /* LiveActivityView.swift in Sources */,
 				D3F801882BC6E4CF00DF07CB /* GameLiveActivity.swift in Sources */,
 				D3F801862BC6E4CF00DF07CB /* GameWidgetBundle.swift in Sources */,
+				D32A5A692BC8202C001B077E /* Image+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
