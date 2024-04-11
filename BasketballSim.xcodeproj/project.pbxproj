@@ -59,6 +59,7 @@
 /* Begin PBXFileReference section */
 		D32A5A662BC81E67001B077E /* LiveActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityView.swift; sourceTree = "<group>"; };
 		D32A5A6A2BC82544001B077E /* GameAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAttributes.swift; sourceTree = "<group>"; };
+		D32A5A6D2BC82C60001B077E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D3F8017E2BC6E4CF00DF07CB /* GameWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GameWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F801802BC6E4CF00DF07CB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		D3F801822BC6E4CF00DF07CB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -144,6 +145,7 @@
 		ED67D6202917E3510097D139 /* BasketballSim */ = {
 			isa = PBXGroup;
 			children = (
+				D32A5A6D2BC82C60001B077E /* Info.plist */,
 				ED67D6212917E3510097D139 /* BasketballSimApp.swift */,
 				ED67D62F2917E37C0097D139 /* GameView.swift */,
 				ED67D6342917E3C20097D139 /* Model */,
@@ -516,6 +518,7 @@
 				DEVELOPMENT_TEAM = FT544A278F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BasketballSim/Info.plist;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -550,6 +553,7 @@
 				DEVELOPMENT_TEAM = FT544A278F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BasketballSim/Info.plist;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
